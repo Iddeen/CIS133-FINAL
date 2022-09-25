@@ -1,0 +1,31 @@
+.toobir {
+    display: flex;
+    padding: 30px;
+  }
+
+  .line {
+    text-align: center;
+    border-bottom: thick double purple;
+  }
+  .column {
+    width: 100.3%;
+    padding: 20px;
+    border: solid rgba(0, 255, 42, 0.663) 10px;
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .four {
+    color: rgb(53, 201, 255);
+
+    border: 10px solid;
+    border-color: rgba(0, 204, 255, 0.316) rgba(0, 179, 255, 0.374) rgba(0, 210, 200, 0.431) rgba(0, 128, 60, 0.497);
+  
+  }
+  .picb{ border: solid blue 7px ;}
+  .picbb{ margin-bottom: 20px }
